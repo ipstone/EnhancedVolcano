@@ -4,6 +4,18 @@ and labeling
 
 This is a fork of enhancedVolcano, to plot the points with gemo_jitter instead of the regular geom_point.
 
+The changes/additions are:
+- Add EnhancedVolcanoJitter function to plot with jitter
+- Tweak some default colAlpha and pointSize for my own plots
+
+Installation note:
+- There was an error in installing the ggalt pkg: error from KernSmooth .so files:
+  This problem is solved by instaling 'KernSmooth' package:
+    install.packages('KernSmooth')
+
+- During installation, there is an error relate to harfbuzz - (some font setting used in EnhancedVolcano):
+    This is solved by yum install harfbuzz-devel
+
 ----
 Kevin Blighe, Sharmila Rana, Myles Lewis
 2020-08-08
