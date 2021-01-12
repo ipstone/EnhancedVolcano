@@ -1,6 +1,10 @@
-EnhancedVolcano: publication-ready volcano plots with enhanced colouring
+EnhancedVolcanoJitter: publication-ready volcano plots with enhanced colouring
 and labeling
 ================
+
+This is a fork of enhancedVolcano, to plot the points with gemo_jitter instead of the regular geom_point.
+
+----
 Kevin Blighe, Sharmila Rana, Myles Lewis
 2020-08-08
 

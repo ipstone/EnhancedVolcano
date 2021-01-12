@@ -1,4 +1,4 @@
-Package: EnhancedVolcano
+Package: EnhancedVolcanoJitter
 Type: Package
 Title: Publication-ready volcano plots with enhanced colouring and labeling
 Version: 1.7.16
